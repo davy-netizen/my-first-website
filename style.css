@@ -1,0 +1,21 @@
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    height: 100px;
+    width: 100%;
+}
+main{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(245, 17, 17);
+    height: 500px;
+    width: 100%;
+}
+p{
+
+    color: #981414;
+    align-items: center;
+    position: relative;
+}
