@@ -1,21 +1,45 @@
 header {
-    background-color: rgb(8, 47, 25);
-    color: white;
-    text-align: center;
-    padding: 1em;
-    height: 300px;
-    width: 100%;
+    position:fixed;
+    left: 0;
+    top: 0;
+    width:100% ;
+    padding: 25px 9%;
+    background-color: rgb(101, 77, 189);
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    z-index: 100;
+    li:hover a {
+        color: #16c410fd;
+    }
 }
 main{
     margin: 20px;
     padding: 20px;
-    background-color: rgb(6, 48, 39);
     height: 500px;
     width: 100%;
 }
 p{
 
-    color: #981414;
+    color: #f5eeee;
     align-items: center;
     position: relative;
+}
+body{
+    background: #4b1d8c;
+}
+a{
+    color: #f6f2f2fd;
+    text-decoration: none;
+}
+.navbar .logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+.home{
+    display: flex;
+    align-items:center;
+    height: 100vh;
+    padding: 60px 9% 0;
+    color: #f5eeeee2;
 }
